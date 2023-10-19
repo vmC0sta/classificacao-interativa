@@ -66,6 +66,10 @@ h1{
     }
 }
 
+.opcao-selecionada{
+    background-color: hsl(217, 12%, 63%)
+}
+
 button{
     align-items: center;
     background-color: hsl(25, 97%, 53%);
