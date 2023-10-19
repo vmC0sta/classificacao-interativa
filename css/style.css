@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Overpass', sans-serif;;
+}
+
+body {
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.content{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 5%;
+    height: 350px;
+    width: 350px;
+    padding: 30px;
+
+}
+
+.estrela{
+    background-color: rgba(240, 248, 255, 0.062);
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    padding: 20px;
+    margin-bottom: 10%;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.avaliacao{
+    margin-top: 8%;
+    display: flex;
+}
+
+.opcoes{
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.062);
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin: 0px 10px;
+    width: 100%;
+
+    &&:hover{
+        background-color: hsl(25, 97%, 53%);;;
+        color:hsl(0, 0%, 100%);;
+    }
+}
+
+button{
+    align-items: center;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    margin: 10% auto ;
+    width: 90%;
+    height: 40px;
+
+    &&:hover{
+        background-color: hsl(0, 0%, 100%);
+        color:hsl(25, 97%, 53%);;
+    }
+
+}
