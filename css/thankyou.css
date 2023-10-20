@@ -1,0 +1,40 @@
+.content-thankyou{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 5%;
+    height: 350px;
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.imagem{
+    margin: 5%;
+}
+
+.elemento-selecionado{
+    border-radius: 30px;
+    background-color: hsl(210, 9%, 21%);
+    padding: 0.02px 0px;
+    width: 200px;
+    margin: auto;
+}
+
+.selecionado{
+    margin: 5%;
+    color: hsl(25, 97%, 53%);
+}
+
+#thankyou{
+    margin: 30px 0% 30px 0%;
+}
+
+
+@media only screen and (max-width: 720px){
+    
+    .content-thankyou {
+        height: 350px;
+        width: 250px;
+    }
+
+}
